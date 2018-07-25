@@ -26,15 +26,15 @@
 #   # code goes here
 # end 
 
-curfew = 11
-curfew - time == time_left 
 
 def deluxe_curfew_checker(time)
+  curfew = 11
    if time == curfew 
     puts "you better head home"
   elsif time > curfew
     puts "you're in trouble"
   else 
+    curfew - time == time_left 
     puts "you can keep having fun in the #{timeleft} hours you have left"
   end
   # code goes here
