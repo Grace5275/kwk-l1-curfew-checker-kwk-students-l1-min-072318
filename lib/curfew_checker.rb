@@ -28,7 +28,7 @@
 
 def deluxe_curfew_checker(time)
   curfew = 11
-  curfew-time = time_left 
+  curfew-time == time_left 
    if time == curfew 
     puts "you better head home"
   elsif time > curfew
