@@ -1,6 +1,6 @@
 def simple_curfew_checker(time)
   if time >= 11
-    puts "It's past curfew!"
+    puts "You're in trouble"
   end
 end
  # code goes here
