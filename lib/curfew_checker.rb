@@ -16,6 +16,13 @@ def curfew_checker(time)
 end
 
 def complex_curfew_checker(time)
+  if time == 11
+    puts "you better head home"
+  elsif time > 11
+    puts "you're in trouble"
+  else 
+    puts "you can keep having fun in the time you have left"
+  end
   # code goes here
 end
 
