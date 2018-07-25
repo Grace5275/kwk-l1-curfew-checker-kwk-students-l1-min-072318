@@ -5,11 +5,10 @@ def simple_curfew_checker(time)
 end
  # code goes here
  
-simple_curfew_checker(14)
 
 def curfew_checker(time)
   if time >= 11
-    puts "You're in trouble"
+    puts "you're in trouble"
   else 
     puts "you can keep having fun with the time you have left"
   end
