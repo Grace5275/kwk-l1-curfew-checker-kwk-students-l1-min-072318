@@ -24,10 +24,10 @@
 #     puts "you can keep having fun in the time you have left"
 #   end
 #   # code goes here
-# end
-
-curfew - time == time_left 
+# en
 curfew = 11
+curfew - time == time_left 
+
 
 def deluxe_curfew_checker(time)
    if time == curfew 
