@@ -27,6 +27,7 @@ def complex_curfew_checker(time)
 end
 
 def deluxe_curfew_checker(time)
+  
   # code goes here
 end
 
